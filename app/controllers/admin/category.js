@@ -17,7 +17,7 @@ router.get('/', auth.requireLogin,function (req, res, next) {
         pretty:true
       });
 });
-router.get('/add', function (req, res, next) {
+router.get('/add',auth.requireLogin, function (req, res, next) {
    res.render('admin/category/add', {
         action:"/admin/categories/add",
         category:{ _id:''},
