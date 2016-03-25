@@ -5,7 +5,7 @@ var express = require('express'),
   pinyin =  require('pinyin'),
   Category = mongoose.model('Category'),
   auth = require('./user');
-
+  slug = require('slug');
 module.exports = function (app) {
   app.use('/admin/categories', router);
 };
