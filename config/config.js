@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'hello-blog'
     },
-    port: 5000,
+    port: 3000,
     db: 'mongodb://123.57.143.189:27017/nodeblog'
   },
 
@@ -17,7 +17,7 @@ var config = {
     app: {
       name: 'hello-blog'
     },
-    port: 5000,
+    port: 3000,
     db: 'mongodb://123.57.143.189:27017/hello-blog-test'
   },
 
@@ -26,7 +26,7 @@ var config = {
     app: {
       name: 'hello-blog'
     },
-    port: 5000,
+    port: 3000,
     db: 'mongodb://123.57.143.189:27017/hello-blog-production'
   }
 };
